@@ -2,7 +2,8 @@ pragma solidity 0.5.16;
 import "./basic.sol";
 import "./math.sol";
 
-contract MyToken is Context, IBEP20, Ownable {
+
+contract TNT is Context, IBEP20, Ownable {
   using SafeMath for uint256;
 
   mapping (address => uint256) private _balances;
